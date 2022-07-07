@@ -1,0 +1,23 @@
+body{
+    background-color: #232426;
+}
+
+h1{
+    color: white;
+}
+
+.color-primary{
+    color: #21B8A6;
+}
+
+.color-text{
+    color: #D3D3D4;
+}
+
+.color-second-background{
+    color: #2F2F2F;
+}
+
+.color-slider{
+    background-color: #6C6D6E;
+}
