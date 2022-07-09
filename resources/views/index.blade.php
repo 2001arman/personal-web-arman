@@ -25,8 +25,8 @@
     <div class="container-fluid row mt-5 px-5" id="avatar-section">
       <div class="col-sm px-5 py-4 mx-2 my-auto" id="container-avatar">
         <h5 class="color-primary font-weight-bold">Hi there! 👋</h5>
-        <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a Software Engineer</h1>
-        <p class="color-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae vulputate in metus ac varius et id. Gravida fermentum ante augue orci diam interdum euismod. In pretium velit sed sed. Morbi odio metus, velit feugiat platea imperdiet sit sit. 
+        <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a FullStack Developer</h1>
+        <p class="color-text mt-3">A FullStack Developer who specializes in mobile and web applications. In addition, I publish programming-related youtube videos.
         </p>
         <button type="button" class="btn my-button mt-3 font-weight-semibold">Contact Me!</button>
       </div>
@@ -38,7 +38,7 @@
     <div class="container-fluid row mt-5 px-5" id="about-section">
       <div class="col-md px-5 py-4 mx-2" id="container-about">
         <h5 class="color-primary font-weight-bold">About Me</h5>
-        <p class="text-justify color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh quam senectus ultrices sit mattis ornare. Amet ac massa odio id viverra. Odio rhoncus vel consectetur vulputate ac. Ut gravida augue elementum eget in. Ut facilisis sit lectus quam in aenean <a href="#" class="color-primary font-weight-bold text-underline hover-none">congue eget.</a>  <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt.  tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. </p>
+        <p class="text-justify color-text">Hello! I'm Muhammad Arman Maulana. I was born in Tangerang and raised in Samarinda, Indonesia. I am currently working freelance as a mobile and web developer while studying at the <a href="https://unmul.ac.id/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">University of Mulawarman Samarinda.</a>  <br> I've been attracted by the world of information technology since I was in high school. Since then, I've primarily worked with <a href="https://flutter.dev/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Flutter,</a> <a href="https://laravel.com/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Lavavel</a> and <a href="https://www.javascript.com/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">JavaScript.</a> <br> Learning new technologies is essential for me since, in the future, I think illiteracy will be defined as the inability to read programming languages. </p>
       </div>
       <div class="col-md ps-4 py-4 ms-3 " id="skills">
         <h5 class="color-primary font-weight-bold">Skills</h5>
