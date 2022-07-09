@@ -55,14 +55,12 @@
             </div>
         </div>
         <!-- akhir gambar -->
-        <div class="px-5 mx-5 mt-5" id="container-text">
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
-        </div>
+        <div class="px-5 mx-5 mt-5 text-justify color-text" id="container-text">
+          <span class="font-weight-bold">Valans</span>
+          <p class="color-text">&emsp; Valans is a vaccine skinning app for the elderly. The application aims to make it easier for vaccination officers without having to do a vaccine screening first. so that people can do their own vaccine screening. To find out whether the user is eligible to get the vaccine or not, the application will display several questions. This valan application has several additional questions specifically for the elderly such as GDS questions, AMT questions and ADL questions. This application is specifically for people over 50 years old. if you are under 50 years old then you should use the <a href="/vablik" class="color-primary font-weight-bold text-underline hover-none">Vablik</a> app that only have general questions. You can download and install this valans application <a href="https://github.com/2001arman/Valans" target="_blank" class="color-primary font-weight-bold text-underline hover-none">here.</a><br></p>
+          <span class="font-weight-bold">Architecture</span>
+          <p class="color-text text-justify">&emsp; To build this project, I'm using the <span class="color-primary font-weight-bold hover-none">Flutter</span> framework version 2. This application does not store any user data because it violates a doctor's ethical code.<br></p>
+      </div>
     </div>
     <!-- akhir content -->
 
