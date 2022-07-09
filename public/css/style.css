@@ -88,6 +88,9 @@ body{
     transform: translate(20%, 0);
 }
 
+#img-detail{
+    width: calc(fit-content - 1000px) !important;
+}
 
 .activeSlide {
     display: flex;
@@ -102,6 +105,10 @@ body{
 .container-contact{
     background-color: rgba(217, 217, 217, 0.05);
     border-radius: 24px;
+}
+
+#container-project{
+    cursor: pointer;
 }
 
 .input-text{
@@ -120,6 +127,10 @@ body{
     background-color: #48484A;
 }
 
+.pemisah-detail{
+    width: 15%;
+}
+
 /* responsive */
 @media (max-width: 992px) { 
     #avatar-section .avatar{
@@ -132,6 +143,26 @@ body{
     #avatar-section, #about-section, #experience-section, #project-section, #contact-section, #footer-section{
         padding: 0 15px !important;
         margin: 0 0px;
+    }
+
+    #container-content{
+        padding: 0 0px !important;
+    }
+
+    #container-gambar{
+        padding: 0 0px !important; 
+    }
+
+    #container-text{
+        padding: 0 30px !important;
+    }
+
+    .pemisah-detail{
+        width: 5% !important;
+    }
+
+    #container-content{
+        margin-top: 40px !important;
     }
 }
 
@@ -154,6 +185,18 @@ body{
 
     #project-section #gambar{
         margin: auto;
+    }
+
+    #container-text{
+        padding: 0 0px !important;
+    }
+
+    .pemisah-detail{
+        width: 0% !important;
+    }
+
+    #container-content{
+        margin-top: 30px !important;
     }
 }
 
@@ -191,5 +234,33 @@ body{
     }
     #padding-footer{
         padding: 10px !important;
+    }
+
+    #container-gambar{
+        margin: 0 15px !important;
+    }
+
+    #container-text{
+        margin: 15px 15px 0px !important;
+    }
+
+    #next-btn{
+        margin-left: 5px !important;
+    }
+
+    #prev-btn{
+        margin-right: 5px !important;
+    }
+
+    #next-btn img, #prev-btn img{
+        width: 30px;   
+    }
+
+    #container-content h2{
+        margin: 0 20px !important;
+    }
+
+    #container-content{
+        margin-top: 20px !important;
     }
 }
