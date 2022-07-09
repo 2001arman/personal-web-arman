@@ -37,4 +37,17 @@ document.querySelector(".prevBtn").addEventListener("click", () => {
     dots[slideIndex - 1].className += " active";
  }
 
- 
+const timeout = document.getElementById('pemberitahuan');
+setTimeout(hideElement, 1500); //milliseconds until timeout//
+function hideElement() {
+   timeout.style.display = 'none';
+   console.log('tes');
+}
+
+function scrollToView(){
+   // var elmntToView = document.getElementById("layanan-section");
+   // window.scrollIntoView(993); 
+   // window.scrollTo({top: 2360, behavior: "smooth"});
+   document.getElementById('contact-section').scrollIntoView({behavior: "smooth"});
+   console.log("tes");
+}

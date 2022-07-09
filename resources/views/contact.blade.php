@@ -2,10 +2,11 @@
   <h5 class="color-primary font-weight-bold mb-4 mx-auto text-center">Contact Me</h5>
   <div class="px-5" id="padding-big">
     <div class="container-contact py-5 px-5" id="container-contact">
-      <form action="#" method="post" class="mx-5 px-3">
-        <input type="text" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Name" required>
-        <input type="text" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Email" required>
-        <textarea cols="30" rows="5" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Message" required></textarea>
+      <form action="/contact-us" method="post" class="mx-5 px-3">
+        @csrf
+        <input type="text" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Name" name="name" required>
+        <input type="text" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Email" name="email" required>
+        <textarea cols="30" rows="5" class="input-text py-2 px-4 mb-4 container-fluid text-white" placeholder="Message" name="message" required></textarea>
         <button type="submit" class="btn my-button container-fluid font-weight-semibold">Contact Me</button>
       </form>
     </div>
