@@ -36,6 +36,16 @@ body{
     
 }
 
+.text-underline{
+    width: fit-content;
+    border-bottom: 1px solid #21B8A6;
+}
+
+.hover-none:hover{
+    text-decoration: none;
+    color: #21B8A6;
+}
+
 .my-button{
     border-radius: 24px;
     background-color: #21B8A6;
@@ -45,4 +55,141 @@ body{
 
 .font-weight-semibold{
     font-weight: 600;
+}
+
+.active{
+    width: 17px !important;
+    height: 5px;
+    border-radius: 24px;
+    background-color: #6C6D6E;
+    margin-right: 4px;
+}
+
+.slide{
+    width: 5px;
+    height: 5px;
+    border-radius: 24px;
+    background-color: #6C6D6E;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.prevBtn, .nextBtn{
+    cursor: pointer;
+}
+
+.Slider {
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: all .5s ;
+    -moz-transition: all .5s ;
+    transition: all .5s ;
+    right: 100%; 
+    transform: translate(20%, 0);
+}
+
+
+.activeSlide {
+    display: flex;
+    opacity: 1;
+    -webkit-transition: all .5s ;
+    -moz-transition: all .5s ;
+    transition: all .5s ;
+    right: 0%; 
+    transform: translate(0%, 0);
+}
+
+.container-contact{
+    background-color: rgba(217, 217, 217, 0.05);
+    border-radius: 24px;
+}
+
+.input-text{
+    border-radius: 24px;
+    border: 1px solid rgba(217, 217, 217, 0.2);
+    background-color: #232426;
+}
+
+.input-text:focus{
+    border: 1px solid rgba(217, 217, 217, 0.5);
+    outline: rgba(217, 217, 217, 0.3);
+}
+
+.divider{
+    height: 1px;
+    background-color: #48484A;
+}
+
+/* responsive */
+@media (max-width: 992px) { 
+    #avatar-section .avatar{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+        /* display: none; */
+    }
+    
+    #avatar-section, #about-section, #experience-section, #project-section, #contact-section, #footer-section{
+        padding: 0 15px !important;
+        margin: 0 0px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #avatar-section .avatar{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+        display: none;
+    }
+
+    #avatar-section , #about-section, #experience-section, #project-section, #contact-section, #footer-section{
+        padding: 0 0px !important;
+        margin: 0 0px;
+    }
+
+    #skills, #organisasi{
+        margin-left: 35px;
+    }
+
+    #project-section #gambar{
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) { 
+    #container-avatar , #container-about, #container-experience, #container-contact, #footer-section{
+        padding: 0 15px !important;
+        margin: 0 0px 20px !important;
+    }
+    #skills, #organisasi{
+        margin-left: 5px;
+        padding-top: 0px !important;
+    }
+
+    #container-avatar p{
+        text-align: justify;
+    }
+    
+    #skills img{
+        width: 80px !important;
+    }
+
+    #gambar img{
+        margin-bottom: 15px;
+    }
+
+    #contact-section, #container-contact{
+        padding: 10px 15px !important;
+    }
+    #container-contact form{
+        padding: 0px !important;
+        margin: 8px 10px !important;
+    }
+    #padding-big{
+        padding: 0px !important;
+    }
+    #padding-footer{
+        padding: 10px !important;
+    }
 }
