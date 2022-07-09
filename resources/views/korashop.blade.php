@@ -60,13 +60,17 @@
             </div>
         </div>
         <!-- akhir gambar -->
-        <div class="px-5 mx-5 mt-5" id="container-text">
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
+        <div class="px-5 mx-5 mt-5 color-text" id="container-text">
+            <span class="font-weight-bold">Korashop</span>
+            <p class="color-text text-justify">&emsp; Korashop is a UMKM that focuses on selling veterinary products. such as cat food, cages and cat medicine. Korashop has been selling since 2020. Due to the covid outbreak, the owner wants to create a personal website to make it easier to sell Korashop products. So this project aims to make it easier for Korashop customers to make transactions. This project focuses on UI/UX and user convenience. You can see the Korashop website <a href="https://korashop.herokuapp.com/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">here</a>.<br></p>
+            <span class="font-weight-bold">Features</span>
+            <ul>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Login & Register.</span> This feature is to make it easier for users to store their personal data.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Buy product.</span> Main features to buy products on korashop such as cat food, cages and cat medicine.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Pet hotel.</span> a feature to leave your pet at the Korashop. Pets can be picked up or delivered directly to Korashop</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Consultation.</span> the feature to ask or consult the korashop admin regarding your product or pet.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Admin panel.</span> There is also an admin panel to manage Korashop products.</li>
+            </ul>
         </div>
     </div>
     <!-- akhir content -->
