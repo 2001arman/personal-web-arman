@@ -63,10 +63,10 @@
             <span class="font-weight-bold color-text">Features</span> <br>
             <span class="color-text text-justify">&emsp; This application has several features to make it easier for users such as:</span>
             <ul>
-              <li class="color-text"><span class="color-primary font-weight-bold text-underline hover-none">Scan historical places.</span> This is the main feature of this app. users can open the scan feature, then the application will open the camera, then users can directly point the camera at historical places. The images that users take will be sent to machine learning via google cloud, then historical data sent from machine learning will be directly displayed to the app.</li>
-              <li class="color-text"><span class="color-primary font-weight-bold text-underline hover-none">Login & Register.</span> This feature is to make it easier for users to store their personal data such as names, photos and photo uploads.</li>
-              <li class="color-text"><span class="color-primary font-weight-bold text-underline hover-none">share photos.</span> a feature that serves to share photos of users in historical places. like instagram.</li>
-              <li class="color-text"><span class="color-primary font-weight-bold text-underline hover-none">Recommendations for nearby historical places.</span> This feature also uses machine learning. the system will recommend historical places that are close to the user's position.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Scan historical places.</span> This is the main feature of this app. users can open the scan feature, then the application will open the camera, then users can directly point the camera at historical places. The images that users take will be sent to machine learning via google cloud, then historical data sent from machine learning will be directly displayed to the app.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Login & Register.</span> This feature is to make it easier for users to store their personal data such as names, photos and photo uploads.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">share photos.</span> a feature that serves to share photos of users in historical places. like instagram.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Recommendations for nearby historical places.</span> This feature also uses machine learning. the system will recommend historical places that are close to the user's position.</li>
             </ul>
 
             
