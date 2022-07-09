@@ -58,12 +58,16 @@
         </div>
         <!-- akhir gambar -->
         <div class="px-5 mx-5 mt-5" id="container-text">
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
-            <p class="font-weight-bold">Lorem</p>
-            <p class="color-text text-justify">&emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias accusantium laudantium esse dolorum rem sit quaerat possimus beatae illo. Qui! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut iste exercitationem, nobis voluptatem obcaecati quia illo assumenda eius deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquam reiciendis natus delectus omnis blanditiis harum numquam odio ducimus iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, et!<br>
-            &emsp; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, sit dolor eum recusandae dicta tempora facilis ut quaerat iure in saepe explicabo cum ab aliquid eaque labore sapiente. Voluptatibus, incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum saepe aperiam. Ab accusamus placeat vel atque blanditiis doloribus sit voluptates reiciendis? Dicta adipisci harum ipsa, reprehenderit vel odit officiis! Commodi ipsam ratione laboriosam eveniet eos beatae corrupti, doloremque perspiciatis cum tempore, exercitationem nemo consequatur? Hic minus dignissimos tempore nihil?</p>
+            <span class="font-weight-bold">Simatalia</span>
+            <p class="color-text text-justify">&emsp; Simatalia is a website that was built for the landing page of the tana lia sub-district in the tanatidung district. this website contains content about the tana lia sub-district such as sub-district profiles, government structures and other services. This website focuses on information systems to the public. so that people can easily get information on this website. You can see the Simatalia website <a href="https://simatalia.id/" target="_blank" class="color-primary font-weight-bold text-underline hover-none">here.</a><br></p>
+
+            <span class="font-weight-bold">Features</span>
+            <ul>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Tana Lia subdistrict profile.</span> Contains information about regional heads, government structures, geographical location and vision and mission</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Tana Lia sub-district government data.</span> To display government data such as village government, RT management, BPD management, LPM management, customary management, youth organization management and mosque management</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Publication.</span> Feature to display publication data such as announcements, photos, videos and news.</li>
+              <li class="color-text"><span class="color-primary font-weight-bold hover-none">Contact.</span> a feature to make it easier for the people of the Tana lia sub-district if they have problems.</li>
+            </ul>
         </div>
     </div>
     <!-- akhir content -->
