@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/project', function () {
-    return view('detail');
+Route::get('/korashop', function () {
+    return view('korashop');
+});
+
+Route::get('/geotagging', function () {
+    return view('geotagging');
+});
+
+Route::get('/simatalia', function () {
+    return view('tanalia');
+});
+
+Route::get('/gasturah', function () {
+    return view('gasturah');
+});
+
+Route::get('/vablik', function () {
+    return view('vablik');
+});
+
+Route::get('/valans', function () {
+    return view('valans');
 });
