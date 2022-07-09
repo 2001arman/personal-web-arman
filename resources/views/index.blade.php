@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,31 +18,31 @@
   <body>
     
     <!-- nama website -->
-    <p class="text-center font-weight-bold underline mx-auto">HOME</p>
+    <p class="text-center font-weight-bold underline mx-auto" id="home-section">HOME</p>
     <!-- akhir nama website -->
 
     <!-- section avatar-->
-    <div class="container-fluid row mt-5 px-5">
-      <div class="col-md px-5 py-4 mx-2 my-auto">
+    <div class="container-fluid row mt-5 px-5" id="avatar-section">
+      <div class="col-sm px-5 py-4 mx-2 my-auto" id="container-avatar">
         <h5 class="color-primary font-weight-bold">Hi there! 👋</h5>
         <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a Software Engineer</h1>
         <p class="color-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae vulputate in metus ac varius et id. Gravida fermentum ante augue orci diam interdum euismod. In pretium velit sed sed. Morbi odio metus, velit feugiat platea imperdiet sit sit. 
         </p>
         <button type="button" class="btn my-button mt-3 font-weight-semibold">Contact Me!</button>
       </div>
-      <img src="img/avatar.png" alt="avatar" class="col-md">
+      <img src="img/avatar.png" alt="avatar" class="col-sm avatar">
     </div>
     <!-- section avatar-->
 
     <!-- section about me -->
-    <div class="container-fluid row mt-5 px-5">
-      <div class="col-md px-5 py-4 mx-2 ">
+    <div class="container-fluid row mt-5 px-5" id="about-section">
+      <div class="col-md px-5 py-4 mx-2" id="container-about">
         <h5 class="color-primary font-weight-bold">About Me</h5>
-        <p class="text-justify color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh quam senectus ultrices sit mattis ornare. Amet ac massa odio id viverra. Odio rhoncus vel consectetur vulputate ac. Ut gravida augue elementum eget in. Ut facilisis sit lectus quam in aenean congue eget. <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt.  tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. </p>
+        <p class="text-justify color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh quam senectus ultrices sit mattis ornare. Amet ac massa odio id viverra. Odio rhoncus vel consectetur vulputate ac. Ut gravida augue elementum eget in. Ut facilisis sit lectus quam in aenean <a href="#" class="color-primary font-weight-bold text-underline hover-none">congue eget.</a>  <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. <br> Odio ipsum, tincidunt diam mauris. Feugiat sodales aliquam ut arcu dignissim adipiscing in egestas. Quis fermentum, tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt.  tempus eu nulla. Pellentesque dictum ut fringilla dolor porta tincidunt. </p>
       </div>
-      <div class="col-md ps-4 py-4 ms-3 ">
+      <div class="col-md ps-4 py-4 ms-3 " id="skills">
         <h5 class="color-primary font-weight-bold">Skills</h5>
-        <div class="d-flex flex-row flex-wrap">
+        <div class="d-flex flex-row flex-wrap justify-content-around" >
           @php ($names = [
             'html.png',
             'css.png',
@@ -57,7 +58,7 @@
             'git.png',
           ])
           @foreach ($names as $icon)
-              <img src="img/{{$icon}}" alt="{{$icon}}" class="mr-3 mb-3" >
+              <img src="img/{{$icon}}" alt="{{$icon}}" title="{{$icon}}" class="mr-3 mb-3" >
           @endforeach
         </div>
       </div>
@@ -65,8 +66,8 @@
     <!-- akhir about me -->
     
     <!-- experience section -->
-    <div class="container-fluid row mt-5 px-5">
-      <div class="col-md px-5 py-4 mx-2 ">
+    <div class="container-fluid row mt-5 px-5" id="experience-section">
+      <div class="col-md px-5 py-4 mx-2 " id="container-experience">
         <h5 class="color-primary font-weight-bold mb-3">Education</h5>
         <div class="row">
           <div class="col-4">
@@ -85,7 +86,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md ps-4 py-4 ms-3 ">
+      <div class="col-md ps-4 py-4 ms-3 " id="organisasi">
         <h5 class="color-primary font-weight-bold mb-3">Organization</h5>
         <p class="color-text "> <span class="font-weight-bold text-white">Staff at the Association of Informatics</span> <br>
           Become a Public Relations Staff at the Association of Informatics and serves as a public relations officer. Handle Study Appeal. Got the award the most active and chosen to be the most outstanding staff.
@@ -102,11 +103,28 @@
       </div>
     </div>
     <!-- akhir experience -->
+
+    <!-- project section -->
+    @include('projects')
+    <!-- akhir project -->
+
+    <!-- kontak me -->
+    @include('contact')
+    <!-- akhir kontak -->
+
+    <!-- footer -->
+    @include('footer')
+    <!-- akhir footer -->
+    
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="js/slider.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
