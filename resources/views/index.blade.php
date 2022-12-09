@@ -32,7 +32,7 @@
       <div class="col-sm px-5 py-4 mx-2 my-auto" id="container-avatar">
         <h5 class="color-primary font-weight-bold">Hi there! 👋</h5>
         <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a FullStack Developer</h1>
-        <p class="color-text mt-3">A FullStack Developer who specializes in mobile and web applications. In addition, I publish programming-related youtube videos.
+        <p class="color-text mt-3">A FullStack Developer who specializes in mobile and web applications. In addition, Create a youtube channel called <a href="https://www.youtube.com/@flutternesia158" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Flutternesia</a> and focus on creating content about flutter tutorial.
         </p>
         <button type="button" class="btn my-button mt-3 font-weight-semibold" onclick="scrollToView()">Contact Me!</button>
       </div>
@@ -89,6 +89,20 @@
           </div>
           <div class="col px-0">
             <p class="color-text"> <span class="font-weight-bold text-white">Bangkit Academy Lead by Google, Gojek, Tokopedia and Traveloka</span>  <br>Enroll as Android Learning path student.</p>
+          </div>
+        </div>
+
+        <h5 class="color-primary font-weight-bold mb-3 mt-3">Work Experience</h5>
+        <div class="row">
+          <div class="col-4">
+            <p class="color-text">July 2022 - Present</p>
+          </div>
+          <div class="col px-0">
+            <p class=" font-weight-bold text-white mb-2">Web & Mobile Developer at HK-Tekno</p>
+            <ul class="color-text px-3">
+              <li class="mb-1">Create and develop several applications for Android and IOS using Flutter. The applications that I have developed are 'Amal Ibadah' and 'Booking Tempat'.</li>
+              <li>Create and develop website for a Pertamina event called www.kolabora9ksi.com. In this project I served as a backend developer using Laravel Framework.</li>
+            </ul>
           </div>
         </div>
       </div>
