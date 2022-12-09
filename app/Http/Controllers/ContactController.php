@@ -16,7 +16,7 @@ class ContactController extends Controller
             'message' => 'required'
         ]);
 
-        DB::table('contacts')->insert([
+        Contact::create([
             'name' => $request->name,
             'email' => $request->email,
             'message' => $request->message,
