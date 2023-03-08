@@ -95,13 +95,22 @@
         <h5 class="color-primary font-weight-bold mb-3 mt-3">Work Experience</h5>
         <div class="row">
           <div class="col-4">
-            <p class="color-text">July 2022 - Present</p>
+            <p class="color-text">July 2022 - February 2023</p>
           </div>
           <div class="col px-0">
             <p class=" font-weight-bold text-white mb-2">Web & Mobile Developer at HK-Tekno</p>
             <ul class="color-text px-3">
               <li class="mb-1">Create and develop several applications for Android and IOS using Flutter. The applications that I have developed are 'Amal Ibadah' and 'Booking Tempat'.</li>
               <li>Create and develop website for a Pertamina event called www.kolabora9ksi.com. In this project I served as a backend developer using Laravel Framework.</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <p class="color-text">March 2023 - Present</p>
+          </div>
+          <div class="col px-0">
+            <p class=" font-weight-bold text-white mb-2">Mobile Developer at Digital Sekuriti Indonesia</p>
+            <ul class="color-text px-3">
+              <li class="mb-1">Create and develop applications for Android and IOS using Flutter as a team.</li>
             </ul>
           </div>
         </div>
