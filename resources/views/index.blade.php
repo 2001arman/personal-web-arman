@@ -31,8 +31,8 @@
     <div class="container-fluid row mt-5 px-5" id="avatar-section">
       <div class="col-sm px-5 py-4 mx-2 my-auto" id="container-avatar">
         <h5 class="color-primary font-weight-bold">Hi there! 👋</h5>
-        <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a FullStack Developer</h1>
-        <p class="color-text mt-3">A FullStack Developer who specializes in mobile and web applications. In addition, i also create a youtube channel called <a href="https://www.youtube.com/@flutternesia158" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Flutternesia</a> and focus on creating content about flutter tutorial.
+        <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a Flutter Developer</h1>
+        <p class="color-text mt-3">A Flutter Developer who specializes in Android and IOS applications using Clean Architecture.<a href="https://www.youtube.com/@flutternesia158" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Flutternesia</a> and focus on creating content about flutter tutorial.
         </p>
         <button type="button" class="btn my-button mt-3 font-weight-semibold" onclick="scrollToView()">Contact Me!</button>
       </div>
