@@ -1,6 +1,38 @@
 @php (
     $projects = [
       [
+          "image" => "ai-care.png",
+          "name" => "AI-Care",
+          "jenis" => "Mobile",
+          "deskripsi" => "Ai Care, combines AI technology with professional healthcare personnel to provide the best care. With the help of AI technology, we provide assistance to ease the burden on our doctors. So that doctors can focus more on their goal of providing the best care and treatment for their patients. In addition, our technology also offers precise and accurate medical information to help patients make the right decisions and maintain their health.",
+          "url" => "/ai-care",
+      ],
+      [
+          "image" => "remembli1.png",
+          "name" => "Remembli",
+          "jenis" => "Mobile",
+          "deskripsi" => "Remembli is a social media platform focused on events, developed in collaboration with a client from Upwork. It allows users to upload images, videos, create posts, and share stories. A key feature is the ability to scan event QR codes using the camera for easy event access. Built with Flutter, utilizing GetX for state management and Clean Architecture (DDD), Remembli ensures a scalable and maintainable codebase. The app is available on iOS and Android.",
+          "url" => "/remembli",
+      ],
+      [
+          "image" => "overtory1.png",
+          "name" => "Overtory",
+          "jenis" => "Mobile",
+          "deskripsi" => "Overtory is a food management app developed in collaboration with a client from Upwork. It helps users track food expiration, categorizing items as expiring soon, expired, or long expired. The app features local notifications that remind users 3 days before expiration and on the expiration day.
+
+          Overtory includes ads and a payment system for unlocking the shared food data feature. Payments are handled via Stripe, supporting credit cards, Apple Pay, Google Pay, and PayPal.
+          
+          Built with Flutter, utilizing GetX for state management and Clean Architecture (DDD), Overtory ensures scalability and maintainability. The app is available on iOS and Android.",
+          "url" => "/overtory",
+      ],
+      [
+          "image" => "callink.png",
+          "name" => "Callink",
+          "jenis" => "Mobile",
+          "deskripsi" => "Callink is an messaging application designed to streamline team communication by consolidating all messages, work items, and tools into a single platform. It offers features such as easy-to-use messaging, private and public channels, message threads, rapid file transfer, and instant voice and video call access. The app emphasizes simplicity and security, utilizing end-to-end encryption to ensure that only you and your intended recipients can access your conversations.",
+          "url" => "/callink",
+      ],
+      [
           "image" => "gasturah1.png",
           "name" => "Gasturah (Gas To Situs Bersejarah)",
           "jenis" => "Mobile",

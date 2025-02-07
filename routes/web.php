@@ -43,3 +43,19 @@ Route::get('/vablik', function () {
 Route::get('/valans', function () {
     return view('valans');
 });
+
+Route::get('/ai-care', function () {
+    return view('aicare');
+});
+
+Route::get('/callink', function () {
+    return view('callink');
+});
+
+Route::get('/remembli', function () {
+    return view('remembli');
+});
+
+Route::get('/overtory', function () {
+    return view('overtory');
+});
