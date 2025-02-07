@@ -34,7 +34,7 @@
         <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a Flutter Developer</h1>
         <p class="color-text mt-3">A Flutter Developer Expert specializing in Android and iOS applications with Clean Architecture.
         </p>
-        <button type="button" class="btn my-button mt-3 font-weight-semibold" onclick="scrollToView()">Contact Me!</button>
+        <button type="button" class="btn my-button mt-3 font-weight-semibold" onclick="contactMe()">Contact Me!</button>
       </div>
       <img src="img/avatar.png" alt="avatar" class="col-sm avatar">
     </div>
@@ -192,6 +192,11 @@
 
     <script src="js/slider.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script>
+      function contactMe() {
+          window.location.href = "mailto:201armanmaulana@gmail.com";
+      }
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
