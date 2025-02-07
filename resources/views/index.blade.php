@@ -32,7 +32,7 @@
       <div class="col-sm px-5 py-4 mx-2 my-auto" id="container-avatar">
         <h5 class="color-primary font-weight-bold">Hi there! 👋</h5>
         <h1 class="font-weight-bold">I'm Muhammad Arman Maulana, a Flutter Developer</h1>
-        <p class="color-text mt-3">A Flutter Developer who specializes in Android and IOS applications using Clean Architecture.<a href="https://www.youtube.com/@flutternesia158" target="_blank" class="color-primary font-weight-bold text-underline hover-none">Flutternesia</a> and focus on creating content about flutter tutorial.
+        <p class="color-text mt-3">A Flutter Developer Expert specializing in Android and iOS applications with Clean Architecture.
         </p>
         <button type="button" class="btn my-button mt-3 font-weight-semibold" onclick="scrollToView()">Contact Me!</button>
       </div>
